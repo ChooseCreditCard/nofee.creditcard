@@ -4,124 +4,241 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>No-Fee Credit Cards – Zero Annual Fee, No FX & Transparent Pricing</title>
-  <meta name="description"
-        content="Learn how no-fee credit cards work: zero annual fee, no foreign transaction fees and transparent pricing. Compare the best cards without hidden costs.">
+  <title>NoFee.Creditcard – No-Fee & Low-Fee Credit Cards Explained</title>
+  <meta name="description" content="Understand how no-fee and low-fee credit cards work: annual fees, FX charges, surcharges and trade-offs in documentation terms. Neutral, educational overview – not financial advice." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://nofee.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="No-Fee Credit Cards – Zero Annual Fee, No FX & Transparent Pricing" />
-  <meta property="og:description"
-        content="Understand how zero-fee credit cards work and compare cards with no annual fee or hidden charges." />
+  <meta property="og:title" content="NoFee.Creditcard – No-Fee & Low-Fee Credit Cards Explained" />
+  <meta property="og:description" content="Learn how issuers structure annual fees, FX fees and other charges on no-fee and low-fee credit cards, in neutral documentation style." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://nofee.creditcard/" />
-  <meta property="og:image" content="https://nofee.creditcard/preview.png" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NoFee.Creditcard – No-Fee & Low-Fee Credit Cards Explained" />
+  <meta name="twitter:description" content="Neutral explanation of how “no annual fee” and low-fee cards are priced, including FX charges and trade-offs." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-64FE63JQ3H');
   </script>
+
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
-<body>
-<header class="nav">
-  <div class="brand">
-    <div class="cc-logo">CC</div>
-    <span>NoFee.creditcard</span>
-  </div>
-  <nav class="links">
-    <a href="https://fin.creditcard/">Collection</a>
-    <a href="https://travels.creditcard/">Travel</a>
-    <a href="https://choose.creditcard/">Choose</a>
-  </nav>
-</header>
-
-<div class="wrap">
-
-  <!-- HERO -->
-  <section class="hero">
-    <h1>No-Fee Credit Cards</h1>
-    <p>Zero annual fee. No hidden charges. Straightforward value.</p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=nofee_spoke">
-      Compare No-Fee Cards
-    </a>
-  </section>
-
-  <!-- What is a no-fee card -->
-  <section class="section">
-    <h2>What qualifies as a no-fee card?</h2>
-    <p class="small">A true no-fee credit card has:</p>
-    <ul class="list">
-      <li>• <strong>No annual fee</strong></li>
-      <li>• <strong>No setup or activation cost</strong></li>
-      <li>• <strong>No foreign transaction fees*</strong> (some cards still charge this)</li>
-      <li>• No hidden monthly charges</li>
-      <li>• Optional, not mandatory, paid upgrades</li>
-    </ul>
-  </section>
-
-  <!-- Benefits -->
-  <section class="section">
-    <h2>Why choose a no-fee card?</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Cost predictability</h3>
-        <p class="small">You only pay when you use it — no recurring costs.</p>
+<body class="bg-slate-950 text-slate-100">
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">NoFee.Creditcard</div>
+          <div class="brand-subtitle">No-Fee &amp; Low-Fee Cards Explained</div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Perfect for beginners</h3>
-        <p class="small">Great for students, low-income users, or credit-building.</p>
-      </div>
-      <div class="card">
-        <h3>Travel-friendly options</h3>
-        <p class="small">Some cards offer no FX fees, making them ideal abroad.</p>
-      </div>
-      <div class="card">
-        <h3>Rewards without paying</h3>
-        <p class="small">Many no-fee cards still offer cashback or points.</p>
-      </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#mechanics">Fee Types</a>
+        <a href="#compare">Compare</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- What to watch out for -->
-  <section class="section">
-    <h2>What to check before applying</h2>
-    <p class="small">Even no-fee cards can include:</p>
-    <ul class="list">
-      <li>• High APR (interest)</li>
-      <li>• Foreign transaction fees (if not waived)</li>
-      <li>• Low credit limits</li>
-      <li>• Weak travel insurance</li>
-    </ul>
-  </section>
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      NoFee.Creditcard
+    </div>
 
-  <!-- CTA -->
-  <section class="section">
-    <h2>Find a no-fee card that actually fits your needs</h2>
-    <p class="small">
-      NoFee.creditcard teaches the basics.  
-      To compare specific cards side by side, open the main hub:
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How “No-Fee” Credit Cards Are Actually Priced</h1>
+        <p class="hero-lead">
+          “No annual fee” is a simple message, but card pricing is more complex. This page explains how issuers structure annual fees, FX fees, interest and other charges on no-fee and low-fee cards — in neutral, documentation-style language.
+        </p>
+        <a class="cta" href="https://choose.creditcard/nofee/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Explore the No-Fee Cards hub
+        </a>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <h2>What Does “No Annual Fee” Actually Cover?</h2>
+      <p>When a card is advertised as having “no annual fee”, it usually means that the issuer does not charge a recurring yearly fee simply for holding the account. This can apply for the entire life of the product or only for an introductory period.</p>
+      <p>However, the absence of an annual fee does not remove other charges. Pricing tables still list interest rates, FX margins, cash-advance fees, late fees and potentially balance-transfer or installment fees. Reading the full schedule is the only way to see the complete structure.</p>
+    </section>
+
+    <!-- Mechanics / fee types -->
+    <section id="mechanics" class="section">
+      <h2>Types of Fees Around a No-Fee Card</h2>
+      <p>No-fee and low-fee products often adjust multiple dimensions of pricing at once. Common components include:</p>
+      <ul class="list">
+        <li><strong>Annual fee</strong> – set to zero, discounted for the first year, or waived under certain usage conditions.</li>
+        <li><strong>Purchase APR</strong> – interest rate charged on carried purchase balances after any grace period.</li>
+        <li><strong>FX fees</strong> – percentage markup on foreign-currency transactions, even when annual fees are zero.</li>
+        <li><strong>Cash-advance fees</strong> – charges for ATM withdrawals or similar, often higher on no-fee cards.</li>
+        <li><strong>Penalty fees</strong> – late payment or returned payment fees as defined in the agreement.</li>
+      </ul>
+      <p>Product comparisons usually highlight the annual fee first, but documentation treats all of these elements as part of the same pricing framework.</p>
+    </section>
+
+    <section class="section">
+      <h2>How No-Fee Cards Trade Features for Pricing</h2>
+      <p>Removing an annual fee can be balanced by changes elsewhere in the product design. Documentation may show:</p>
+      <ul class="list">
+        <li>Lower reward earn rates than comparable cards with annual fees.</li>
+        <li>Fewer bundled benefits, such as travel insurance or lounge access.</li>
+        <li>Higher FX fees on foreign transactions.</li>
+        <li>Different introductory APR offers or shorter promotional periods.</li>
+      </ul>
+      <p>These trade-offs vary by issuer and market. The goal here is not to rank products, but to highlight which parts of the documentation describe those differences.</p>
+    </section>
+
+    <section class="section">
+      <h2>Introductory Waivers vs. Permanent No-Fee</h2>
+      <p>Some cards are permanently no-fee, while others waive the annual fee only for a set period. Typical patterns include:</p>
+      <ul class="list">
+        <li><strong>First-year free</strong> – the annual fee is waived for the first year and then charged from year two onward.</li>
+        <li><strong>Spend-based waivers</strong> – the fee is waived if you meet a spending threshold within a year.</li>
+        <li><strong>Relationship waivers</strong> – the fee is waived if you hold certain other products with the same institution.</li>
+      </ul>
+      <p>Terms and conditions explain how long waivers last, what happens if thresholds are not met, and how changes are communicated over time.</p>
+    </section>
+
+    <!-- Comparison table -->
+    <section id="compare" class="section">
+      <h2>Comparing No-Fee and Low-Fee Card Structures</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>What to Check</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Annual Fee</td>
+              <td>Amount, waiver rules, introductory periods</td>
+              <td>Shows whether “no fee” is permanent or conditional.</td>
+            </tr>
+            <tr>
+              <td>FX Fees</td>
+              <td>Percentage and conditions for foreign transactions</td>
+              <td>Important for anyone using the card abroad or online in other currencies.</td>
+            </tr>
+            <tr>
+              <td>Rewards Structure</td>
+              <td>Earn rates, caps and excluded categories</td>
+              <td>Explains how value is returned compared to fee-based cards.</td>
+            </tr>
+            <tr>
+              <td>Other Fees</td>
+              <td>Cash advances, balance transfers, installments, penalties</td>
+              <td>Reveals where costs may appear even without an annual fee.</td>
+            </tr>
+            <tr>
+              <td>APR Ranges</td>
+              <td>Purchase, cash-advance and penalty APRs</td>
+              <td>Shows the cost of carrying balances under different scenarios.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="small">
+        For structured comparisons of no-fee and low-fee card categories, visit
+        <a href="https://choose.creditcard/nofee/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          the No-Fee Cards hub on Choose.Creditcard
+        </a>.
+      </p>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Pricing &amp; Structure Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://apr.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=cluster_apr">
+          <h3>APR.Creditcard</h3>
+          <p>How interest and APR are defined and applied in card agreements.</p>
+        </a>
+        <a class="cluster-card" href="https://cashbacks.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=cluster_cashbacks">
+          <h3>Cashbacks.Creditcard</h3>
+          <p>How cashback structures can interact with fee levels.</p>
+        </a>
+        <a class="cluster-card" href="https://fx.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=cluster_fx">
+          <h3>FX.Creditcard</h3>
+          <p>Foreign transaction fees and currency conversion policies.</p>
+        </a>
+        <a class="cluster-card" href="https://comparecard.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=cluster_comparecard">
+          <h3>CompareCard.Creditcard</h3>
+          <p>Frameworks for comparing card pricing structures side by side.</p>
+        </a>
+        <a class="cluster-card" href="https://credits.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=cluster_credits">
+          <h3>Credits.Creditcard</h3>
+          <p>Statement credits and how they are documented and applied.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        NoFee.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single concept in clear, factual language and connects readers to broader comparison hubs.
+      </p>
+      <p class="small">
+        We do not issue cards, set prices or provide personalized recommendations. This page summarizes how fee structures are usually described in product documentation so you can read official terms with more context.
+      </p>
+      <p class="small">
+        This site is informational only and does not provide financial, investment, tax or legal advice. Always rely on official documentation and consider seeking independent guidance for your specific situation.
+      </p>
+
+      <!-- No-fee hub snippet -->
+      <p class="text-xs text-slate-500 mt-6">
+        For more educational material on annual fees, FX fees and low-fee designs, visit the
+        <a href="https://choose.creditcard/nofee/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=hub_nofee"
+           class="font-medium hover:text-slate-900">
+          No-Fee Cards hub
+        </a>
+        on <a href="https://choose.creditcard/" class="font-medium hover:text-slate-900">Choose.Creditcard</a>.
+      </p>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to See How No-Fee Cards Compare?</h2>
+      <p class="small">
+        Use NoFee.Creditcard to understand the building blocks of no-fee pricing — then explore the No-Fee Cards hub on Choose.Creditcard to see how different products arrange those elements in practice.
+      </p>
+      <a class="cta" href="https://choose.creditcard/nofee/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to the No-Fee Cards hub
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
     </p>
-
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=nofee.creditcard&utm_medium=referral&utm_campaign=nofee_spoke">
-      Open Choose.Creditcard
-    </a>
-  </section>
-
-  <footer class="footer">
-    Part of <strong>The CreditCard Collection</strong> — by ronarn  
-    <br>Contact: <a href="mailto:support@ronarn.com">support@ronarn.com</a>
   </footer>
-</div>
 </body>
 </html>
